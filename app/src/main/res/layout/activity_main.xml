@@ -26,7 +26,10 @@
                 android:orientation="vertical">
 
             <androidx.appcompat.widget.Toolbar
+                    android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+                    android:background="?attr/colorPrimaryDark"
                     android:id="@+id/toolbar"
+                    android:tint="?attr/colorOnSecondary"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize">
                 <ImageView
